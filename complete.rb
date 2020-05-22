@@ -65,29 +65,29 @@ body = Body.new
 body.go
 
 class Closing
-    def reply
-        answer = { y: "はい", n: "いいえ" }
-        puts answer
-        print "続けますか？"
-        response = gets.chomp.to_sym
-        puts "#{answer[response]}"
-        puts "--------------------------"
-        @yesno = answer[response]
-    end
-    def yesno
-        @yesno
-    end
+  def reply
+    answer = { y: "はい", n: "いいえ" }
+    puts answer
+    print "続けますか？"
+    response = gets.chomp.to_sym
+    puts "#{answer[response]}"
+    puts "-------------------------"
+    return answer[response] #値をreturnする
+  end
 end
 close = Closing.new
 close.reply
-decision = yesno
 
 loop do
-    decision = gets
-    start.count
-    body.go
-    close.reply
-break if decision == "いいえ"
-puts "ゲームを終了します"
+  start = Start.new
+  start.count
+  body = Body.new
+  body.go
+  close = Closing.new
+  answer = close.reply #returnされた値がanswerに代入される
+  if answer == "いいえ"
+    puts "ゲームを終了します"
+    puts "-------------------------"
+    break
+  end
 end
-
