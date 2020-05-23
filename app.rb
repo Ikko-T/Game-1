@@ -13,13 +13,11 @@ puts <<-TEXT
 
 TEXT
 
-class Start
-    def count
+class Game
+    def ready
         puts "準備ができたらEnterをおしてください。"
-
         # 入力されるまで待機する
         input = $stdin.gets
-
         # 1秒毎に配列各要素を出力
         shouts = ["あっち", "向いて...", "ホイっ！"]
         shouts.each do |shout|
@@ -27,14 +25,9 @@ class Start
             sleep 1.0
         end
     end
-end
-start = Start.new
-start.count
 
-class Body
-    def go
+    def compete
       key_items = { h: "⇦", j: "⇩", k: "⇧", l: "⇨" }
-  
       puts key_items
       puts "入力してください： "
       user_select = gets.chomp.to_sym
@@ -44,47 +37,41 @@ class Body
       puts "AI： #{key_items[ai_select]}"
       puts "-------------------------"
       sleep 0.5
-    
       if user_select == ai_select
         sleep 0.8 #タメを作る
-          puts "You win!"
+        puts "You win!"
         sleep 0.8
-          puts "100円ゲット！"
+        puts "100円ゲット！"
         puts "-------------------------"
       else
         sleep 0.8
-          puts "You lose!!"
+        puts "You lose!!"
         sleep 0.8
-          puts "200円徴収します！"
+        puts "200円徴収します！"
         puts "-------------------------"
         sleep 0.8
       end
-    end
-end 
-body = Body.new
-body.go
+    end 
 
-class Closing
-    def reply
-        answer = { y: "はい", n: "いいえ" }
-
-        puts answer
-        print "続けますか？"
-        response = gets.chomp.to_sym
-        puts "#{answer[response]}"
-        puts "--------------------------"
+    def continue
+      answer = { y: "はい", n: "いいえ" }
+      puts answer
+      print "続けますか？"
+      response = gets.chomp.to_sym
+      puts answer[response]
+      puts "-------------------------"
+      return answer[response] #値をreturnする
     end
 end
-close = Closing.new
-close.reply
 
-if answer[response] == "はい"
-    while answer[response] == "はい"
-      close.reply
-      start.count
-      body.go
-    end
-else
+loop do
+  look_this_way = Game.new
+  look_this_way.ready
+  look_this_way.compete
+  answer = look_this_way.continue #returnされた値がanswerに代入される
+  if answer == "いいえ"
     puts "ゲームを終了します"
+    puts "-------------------------"
+    break
+  end
 end
-
