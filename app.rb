@@ -69,9 +69,13 @@ loop do
   look_this_way.ready
   look_this_way.compete
   answer = look_this_way.continue #returnされた値がanswerに代入される
-  if answer == "いいえ"
+  case
+  when answer == "いいえ"
     puts "ゲームを終了します"
     puts "-------------------------"
-    break
+  break
+  when answer != "はい"
+    puts "対応するキーを入力して下さい"
+    puts "-------------------------"
   end
 end
