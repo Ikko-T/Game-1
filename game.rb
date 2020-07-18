@@ -13,12 +13,12 @@ class Game
   def compete
     key_items = { h: "⇦", j: "⇩", k: "⇧", l: "⇨" }
     puts key_items
-    puts "入力してください > "
+    print "入力してください > "
     user_select = gets.chomp.to_sym
     puts "-------------------------"
     puts "あなた： #{key_items[user_select]}"
     ai_select = key_items.keys.sample
-    puts "  AI ： #{key_items[ai_select]}"
+    puts "  AI  ： #{key_items[ai_select]}"
     puts "-------------------------"
     sleep 0.5
     if user_select == ai_select
@@ -49,17 +49,13 @@ class Game
 end
 
 loop do
-look_this_way = Game.new
-look_this_way.ready
-look_this_way.compete
-answer = look_this_way.continue #returnされた値がanswerに代入される
-case
-when answer == "いいえ"
-  puts "ゲームを終了します"
-  puts "-------------------------"
-break
-when answer != "はい"
-  puts "対応するキーを入力して下さい"
-  puts "-------------------------"
-end
+  look_this_way = Game.new
+  look_this_way.ready
+  look_this_way.compete
+  answer = look_this_way.continue #returnされた値がanswerに代入される
+  if answer == "いいえ"
+    puts "ゲームを終了します"
+    puts "-------------------------"
+  exit
+  end
 end
