@@ -1,9 +1,9 @@
 # Look-This-Way
-１、ゲームタイトル
+1. ゲームタイトル
 
     あっち、むいて、ホイっ！でおこずかいゲット
   
-２、ゲーム説明
+2. ゲーム説明
 
     a) 「ruby app.rb」でゲーム起動
   
@@ -28,7 +28,7 @@
 
 〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜
 
-１. The title of this play
+1. The title of this play
 
        Look This Way
    
