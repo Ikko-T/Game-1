@@ -35,13 +35,14 @@
 % cd Look_This_Way_game
 ```
 下記コマンド実行でゲームが開始します。
+
 ```
 % ruby game.rb
 ```
 
 5. 使用技術
 ***
-    Ruby
+    Ruby 2.6.6
 
 6. 作成者
 ***
