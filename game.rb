@@ -1,13 +1,14 @@
+require './app'
+
 class Game
   def ready
-      puts "準備ができたらEnterをおしてください。"
-      input = gets.chomp.to_s
-      shouts = ["あっち", "向いて...", "ホイっ！"]
-      shouts.each do |shout|
-          puts shout
-          sleep 1.0
-      end
-      puts " "
+    puts "準備ができたらEnterをおしてください。"
+    input = gets.chomp.to_s
+    shouts = ["あっち", "向いて...", "ホイっ！"]
+    shouts.each do |shout|
+      puts shout
+      sleep 1.0
+    end
   end
 
   def compete
@@ -35,7 +36,7 @@ class Game
       puts "-------------------------"
       sleep 0.8
     end
-  end 
+  end
 
   def continue
     answer = { y: "はい", n: "いいえ" }
@@ -56,6 +57,6 @@ loop do
   if answer == "いいえ"
     puts "ゲームを終了します"
     puts "-------------------------"
-  exit
+    exit
   end
 end
