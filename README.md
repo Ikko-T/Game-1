@@ -1,9 +1,9 @@
 1. ゲームタイトル
-
+***
     あっち、むいて、ホイっ！でおこずかいゲット
 
 2. ゲーム説明
-
+***
     a) 「ruby app.rb」でゲーム起動
 
     b) 「エンターキー」を押してゲーム開始
@@ -21,14 +21,15 @@
     h) ゲームの本質を見破ったら、あなたは真の勝者
 
 3. デモ
-
+***
   ![Screenshot](DEMO.gif)
 
 4. 使用技術
-
+***
     Ruby
 
 5. 作成者
+***
 [Ikko Tsuha](https://github.com/Ikko-T)
 
 - Twitter: [@ikko1021](https://twitter.com/ikko1021)
@@ -38,7 +39,7 @@
 - Qiita: <a href="https://qiita.com/Ikko-T" rel="nofollow">@Ikko-T</a>
 
 6. ライセンス
-
+***
 (C)Copyright 2020 Ikko Tsuha
 <!--
 〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜
