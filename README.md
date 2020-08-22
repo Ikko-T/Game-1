@@ -24,11 +24,26 @@
 ***
   ![Screenshot](DEMO.gif)
 
-4. 使用技術
+4. 使用方法
+***
+クローンします。
+```
+% git clone https://github.com/Ikko-T/Look-This-Way.git
+```
+`Look_This_Way_game`ディレクトリへ移動します。
+```
+% cd Look_This_Way_game
+```
+下記コマンド実行でゲームが開始します。
+```
+% ruby game.rb
+```
+
+5. 使用技術
 ***
     Ruby
 
-5. 作成者
+6. 作成者
 ***
 [Ikko Tsuha](https://github.com/Ikko-T)
 
@@ -38,7 +53,7 @@
 
 - Qiita: <a href="https://qiita.com/Ikko-T" rel="nofollow">@Ikko-T</a>
 
-6. ライセンス
+7. ライセンス
 ***
 (C)Copyright 2020 Ikko Tsuha
 <!--
