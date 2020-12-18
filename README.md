@@ -48,9 +48,9 @@
 ***
 [Ikko Tsuha](https://github.com/Ikko-T)
 
-- Twitter: [@ikko1021](https://twitter.com/ikko1021)
+- Twitter: [@ikko1021](https://twitter.com/ikko1021){:target="_blank" rel="noopener"}
 
-- GitHub: [@Ikko-T](https://github.com/Ikko-T)
+- GitHub: [@Ikko-T](https://github.com/Ikko-T){:target="_blank" rel="noopener"}
 
 - Qiita: <a href="https://qiita.com/Ikko-T" rel="nofollow">@Ikko-T</a>
 
