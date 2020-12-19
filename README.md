@@ -24,7 +24,11 @@
 ***
   ![Screenshot](DEMO.gif)
 
-4. 使用方法
+4. フローチャート
+***
+  ![Screenshot](flow_chart.svg)
+
+5. 使用方法
 ***
 クローンします。
 ```
@@ -40,11 +44,11 @@
 % ruby game.rb
 ```
 
-5. 使用技術
+6. 使用技術
 ***
     Ruby 2.6.6
 
-6. 作成者
+7. 作成者
 ***
 [Ikko Tsuha](https://github.com/Ikko-T)
 
@@ -54,7 +58,7 @@
 
 - Qiita: <a href="https://qiita.com/Ikko-T" rel="nofollow">@Ikko-T</a>
 
-7. ライセンス
+8. ライセンス
 ***
 (C)Copyright 2020 Ikko Tsuha
 <!--
