@@ -52,11 +52,11 @@
 ***
 [Ikko Tsuha](https://github.com/Ikko-T)
 
-- Twitter: [@ikko1021](https://twitter.com/ikko1021){:target="_blank" rel="noopener"}
+- Twitter: <a href="https://twitter.com/ikko1021" target="_blank"  rel="noopener">@ikko1021</a>
 
-- GitHub: [@Ikko-T](https://github.com/Ikko-T){:target="_blank" rel="noopener"}
+- GitHub: <a href="https://github.com/Ikko-T/Look-This-Way" target="_blank"  rel="noopener">@Ikko-T</a>
 
-- Qiita: <a href="https://qiita.com/Ikko-T" rel="nofollow">@Ikko-T</a>
+- Qiita: <a href="https://qiita.com/Ikko-T" target="_blank" rel="nofollow">@Ikko-T</a>
 
 8. ライセンス
 ***
