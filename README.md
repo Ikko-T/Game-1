@@ -52,9 +52,9 @@
 ***
 [Ikko Tsuha](https://github.com/Ikko-T)
 
-- Twitter: <a href="https://twitter.com/ikko1021" target="_blank"  rel="noopener">@ikko1021</a>
+- Twitter: <a href="https://twitter.com/ikko1021" target="_blank" rel="noopener">@ikko1021</a>
 
-- GitHub: <a href="https://github.com/Ikko-T/Look-This-Way" target="_blank"  rel="noopener">@Ikko-T</a>
+- GitHub: <a href="https://github.com/Ikko-T/Look-This-Way" target="_blank" rel="noopener">@Ikko-T</a>
 
 - Qiita: <a href="https://qiita.com/Ikko-T" target="_blank" rel="nofollow">@Ikko-T</a>
 
