@@ -32,11 +32,11 @@
 ***
 クローンします。
 ```
-% git clone https://github.com/Ikko-T/Look-This-Way.git
+% git clone https://github.com/Ikko-T/look_this_way.git
 ```
-`Look_This_Way_game`ディレクトリへ移動します。
+`look_this_way`ディレクトリへ移動します。
 ```
-% cd Look_This_Way_game
+% cd look_this_way
 ```
 下記コマンド実行でゲームが開始します。
 
