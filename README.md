@@ -50,17 +50,15 @@
 
 7. 作成者
 ***
-[Ikko Tsuha](https://github.com/Ikko-T)
+[IT](https://github.com/Ikko-T)
 
-- Twitter: <a href="https://twitter.com/ikko1021" target="_blank" rel="noopener">@ikko1021</a>
 
-- GitHub: <a href="https://github.com/Ikko-T/Look-This-Way" target="_blank" rel="noopener">@Ikko-T</a>
+- GitHub: <a href="https://github.com/Ikko-T/Look-This-Way" target="_blank" rel="noopener">@IT</a>
 
-- Qiita: <a href="https://qiita.com/Ikko-T" target="_blank" rel="nofollow">@Ikko-T</a>
 
 8. ライセンス
 ***
-(C)Copyright 2020 Ikko Tsuha
+(C)Copyright 2020 IT
 <!--
 〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜
 
